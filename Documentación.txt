@@ -1,0 +1,11 @@
+Documentación...
+
+Se accede a la API http://api.cup2022.ir/api/v1 que es gratuita y se puede consultar equipos de futbol y usuarios.
+
+Se crea los controller de equipos y usuarios respectivamente donde son los endpont a consumir la api.
+
+Se crea los service con su respectivos DTO. Data Access Object. Es el mapeo de las tablas o el acceso a los datos de los equipos y usuarios registrados. Despues de eso se crean los service y sus implementaciones respectivamente.
+
+En la clase abstract se definen template y solicitud httpHeader que es lo que me permite el acceso a la api y su respectiva respuesta en formato Json.
+
+La api corre en el puerto 8080
